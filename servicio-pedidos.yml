@@ -4,7 +4,7 @@ spring:
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
     password: ''
-    url: jdbc:mysql://${hostdb}/pedido?serverTimezone=UTC
+    url: jdbc:mysql://${hostdb}:3306/pedido?serverTimezone=UTC
     username: root
   jpa:
     hibernate:
